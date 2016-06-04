@@ -17,6 +17,7 @@ html,body{
     top:0;
     transform-origin: top;
     -webkit-transform-origin: top;
+    overflow: hidden;
 }
 #main ul {
     width: 100%;
@@ -117,11 +118,16 @@ html,body{
     font-size: 30px;
     line-height: 40px;
     font-weight: 700;
-    padding:0 20px;
+    padding:0 10%;
     position: absolute;
-    bottom:5%;
+    bottom:10%;
     transform: scale(0);
 }
+/*@media all and (device-width: 320px) {*/
+    /*.bottom_text{*/
+        /*bottom:10%*/
+    /*}*/
+/*}*/
 #side1 .b0{
     opacity: 0;
     transition: 1s ease-out;
@@ -178,7 +184,7 @@ html,body{
 }
 @-webkit-keyframes rotate {
     0%{
-        -webkit-transform: scale(0.2) rotate(0deg);
+        -webkit-transform: scale(0) rotate(0deg);
     }
     100%{
         -webkit-transform: scale(1)  rotate(360deg);
