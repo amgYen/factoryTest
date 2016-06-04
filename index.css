@@ -153,13 +153,13 @@ html,body{
     }
 }
 .c0 {
-    width: 951px;
-    height: 1080px;
+    width: 481px;
+    height: 451px;
     position: absolute;
     left: 50%;
     top:50%;
-    margin-left: -475px;
-    margin-top: -540px;
+    margin-left: -240px;
+    margin-top: -225px;
     transform: scale(0);
 
 }
@@ -173,7 +173,7 @@ html,body{
         transform: scale(0) rotate(0deg);
     }
     100%{
-        transform: scale(0.5)  rotate(360deg);
+        transform: scale(1)  rotate(360deg);
     }
 }
 @-webkit-keyframes rotate {
